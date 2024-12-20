@@ -1,5 +1,5 @@
- import pickle
- from flask  import Flask,request
+import pickle
+from flask  import Flask,request
 
  api=Flask(__name__)
 
