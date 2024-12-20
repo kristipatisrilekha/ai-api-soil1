@@ -23,7 +23,7 @@ def predict():
     H=request.args.get('H')
     H=float(H)
     PH=request.args.get('PH')
-    PH=float('PH')
+    PH=float(PH)
     R=request.args.get('R')
     R=float(R)
     data=[[N,P,K,T,H,P,R]]
